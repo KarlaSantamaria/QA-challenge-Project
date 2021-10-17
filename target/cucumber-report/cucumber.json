@@ -1,0 +1,3634 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 615000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que la web esta disponible para Login",
+            "match": {
+              "location": "definition.registerDefinition.queLaWebEstaDisponibleLogin()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T17:46:32.396Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3610000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 131,
+        "name": ": [QA][Challenge] C009 - Como Usuario deseo ingresar cero caracteres en Email",
+        "description": "",
+        "id": "login-frontend;:-[qa][challenge]-c009---como-usuario-deseo-ingresar-cero-caracteres-en-email;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 263000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 512000000,
+              "status": "passed"
+            },
+            "line": 126,
+            "name": "Ingreso cero caracteres en Email \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 34
+                }
+              ],
+              "location": "definition.registerDefinition.ingresoCeroCaracteresEnEmail(java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Email Incompleto]\u003e but was:\u003c[...]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat definition.registerDefinition.validoQueMuestreMensajeDeEmailIncompleto(registerDefinition.java:106)\r\n\tat ✽.Valido que muestre mensaje de email incompleto \"Email Incompleto\"(file:///D:/QAChallenge/src/test/resources/features/login.feature:127)\r\n",
+              "duration": 392000000,
+              "status": "failed"
+            },
+            "line": 127,
+            "name": "Valido que muestre mensaje de email incompleto \"Email Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email Incompleto",
+                  "offset": 48
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreMensajeDeEmailIncompleto(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LOGIN"
+          },
+          {
+            "name": "@ESC_009_L"
+          },
+          {
+            "name": "@MEJORAS"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 403000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que la web esta disponible para Login",
+            "match": {
+              "location": "definition.registerDefinition.queLaWebEstaDisponibleLogin()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T17:46:38.065Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2793000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 142,
+        "name": ": [QA][Challenge] C010 - Como Usuario deseo ingresar sin caracter @ en Email",
+        "description": "",
+        "id": "login-frontend;:-[qa][challenge]-c010---como-usuario-deseo-ingresar-sin-caracter-@-en-email;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 315000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 480000000,
+              "status": "passed"
+            },
+            "line": 137,
+            "name": "No Ingreso Arroba en Email \"usuario.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "usuario.com",
+                  "offset": 28
+                }
+              ],
+              "location": "definition.registerDefinition.NoIngresoArrobaEnEmail(java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Email Incompleto]\u003e but was:\u003c[...]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat definition.registerDefinition.validoQueMuestreMensajeDeEmailIncompleto(registerDefinition.java:106)\r\n\tat ✽.Valido que muestre mensaje de email incompleto \"Email Incompleto\"(file:///D:/QAChallenge/src/test/resources/features/login.feature:138)\r\n",
+              "duration": 270000000,
+              "status": "failed"
+            },
+            "line": 138,
+            "name": "Valido que muestre mensaje de email incompleto \"Email Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email Incompleto",
+                  "offset": 48
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreMensajeDeEmailIncompleto(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LOGIN"
+          },
+          {
+            "name": "@ESC_010_L"
+          },
+          {
+            "name": "@MEJORAS"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 613000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que la web esta disponible para Login",
+            "match": {
+              "location": "definition.registerDefinition.queLaWebEstaDisponibleLogin()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T17:46:42.345Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2496000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 143,
+        "name": ": [QA][Challenge] C010 - Como Usuario deseo ingresar sin caracter @ en Email",
+        "description": "",
+        "id": "login-frontend;:-[qa][challenge]-c010---como-usuario-deseo-ingresar-sin-caracter-@-en-email;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 346000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 443000000,
+              "status": "passed"
+            },
+            "line": 137,
+            "name": "No Ingreso Arroba en Email \"usuario\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "usuario",
+                  "offset": 28
+                }
+              ],
+              "location": "definition.registerDefinition.NoIngresoArrobaEnEmail(java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Email Incompleto]\u003e but was:\u003c[...]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat definition.registerDefinition.validoQueMuestreMensajeDeEmailIncompleto(registerDefinition.java:106)\r\n\tat ✽.Valido que muestre mensaje de email incompleto \"Email Incompleto\"(file:///D:/QAChallenge/src/test/resources/features/login.feature:138)\r\n",
+              "duration": 304000000,
+              "status": "failed"
+            },
+            "line": 138,
+            "name": "Valido que muestre mensaje de email incompleto \"Email Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email Incompleto",
+                  "offset": 48
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreMensajeDeEmailIncompleto(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LOGIN"
+          },
+          {
+            "name": "@ESC_010_L"
+          },
+          {
+            "name": "@MEJORAS"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 563000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que la web esta disponible para Login",
+            "match": {
+              "location": "definition.registerDefinition.queLaWebEstaDisponibleLogin()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T17:46:46.575Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2503000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 144,
+        "name": ": [QA][Challenge] C010 - Como Usuario deseo ingresar sin caracter @ en Email",
+        "description": "",
+        "id": "login-frontend;:-[qa][challenge]-c010---como-usuario-deseo-ingresar-sin-caracter-@-en-email;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 303000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 639000000,
+              "status": "passed"
+            },
+            "line": 137,
+            "name": "No Ingreso Arroba en Email \"usuario1010\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "usuario1010",
+                  "offset": 28
+                }
+              ],
+              "location": "definition.registerDefinition.NoIngresoArrobaEnEmail(java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Email Incompleto]\u003e but was:\u003c[...]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat definition.registerDefinition.validoQueMuestreMensajeDeEmailIncompleto(registerDefinition.java:106)\r\n\tat ✽.Valido que muestre mensaje de email incompleto \"Email Incompleto\"(file:///D:/QAChallenge/src/test/resources/features/login.feature:138)\r\n",
+              "duration": 223000000,
+              "status": "failed"
+            },
+            "line": 138,
+            "name": "Valido que muestre mensaje de email incompleto \"Email Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email Incompleto",
+                  "offset": 48
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreMensajeDeEmailIncompleto(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LOGIN"
+          },
+          {
+            "name": "@ESC_010_L"
+          },
+          {
+            "name": "@MEJORAS"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 447000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que la web esta disponible para Login",
+            "match": {
+              "location": "definition.registerDefinition.queLaWebEstaDisponibleLogin()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T17:46:50.822Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2232000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 175,
+        "name": ": [QA][Challenge] C012 - Como Usuario deseo pasar al otro campo sin completar en Email",
+        "description": "",
+        "id": "login-frontend;:-[qa][challenge]-c012---como-usuario-deseo-pasar-al-otro-campo-sin-completar-en-email;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 348000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 359000000,
+              "status": "passed"
+            },
+            "line": 168,
+            "name": "Ingreso ningun caracter en Email \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 34
+                }
+              ],
+              "location": "definition.registerDefinition.ingresoNingunCaracterEnEmail(java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Email Incompleto]\u003e but was:\u003c[...]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat definition.registerDefinition.validoQueMuestreElMensajeDeEmailIncompleto(registerDefinition.java:144)\r\n\tat ✽.Valido que muestre el mensaje de email incompleto \"Email Incompleto\"(file:///D:/QAChallenge/src/test/resources/features/login.feature:169)\r\n",
+              "duration": 257000000,
+              "status": "failed"
+            },
+            "line": 169,
+            "name": "Valido que muestre el mensaje de email incompleto \"Email Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email Incompleto",
+                  "offset": 51
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreElMensajeDeEmailIncompleto(java.lang.String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 170,
+            "name": "No Ingreso el Arroba en Email \"usuario.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "usuario.com",
+                  "offset": 31
+                }
+              ],
+              "location": "definition.registerDefinition.NoIngresoElArrobaEnEmail(java.lang.String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 171,
+            "name": "Valido que muestre mensaje de email incompleto \"Email Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email Incompleto",
+                  "offset": 48
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreMensajeDeEmailIncompleto(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LOGIN"
+          },
+          {
+            "name": "@ESC_012_L"
+          },
+          {
+            "name": "@MEJORAS"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 428000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que la web esta disponible para Login",
+            "match": {
+              "location": "definition.registerDefinition.queLaWebEstaDisponibleLogin()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T17:46:54.475Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2142000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 205,
+        "name": ": [QA][Challenge] C014 - Como Usuario deseo pasar login sin ingresar ningun caracter en Email",
+        "description": "",
+        "id": "login-frontend;:-[qa][challenge]-c014---como-usuario-deseo-pasar-login-sin-ingresar-ningun-caracter-en-email;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 225000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 424000000,
+              "status": "passed"
+            },
+            "line": 199,
+            "name": "Ingreso ningun caracter en Email \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 34
+                }
+              ],
+              "location": "definition.registerDefinition.ingresoNingunCaracterEnEmail(java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 234000000,
+              "status": "passed"
+            },
+            "line": 200,
+            "name": "Hago click al boton Login",
+            "match": {
+              "location": "definition.registerDefinition.hagoClickAlBotonLogin()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Email Incompleto]\u003e but was:\u003c[REQUIRED]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat definition.registerDefinition.validoQueMuestreMensajeDeEmailIncompleto(registerDefinition.java:106)\r\n\tat ✽.Valido que muestre mensaje de email incompleto \"Email Incompleto\"(file:///D:/QAChallenge/src/test/resources/features/login.feature:201)\r\n",
+              "duration": 245000000,
+              "status": "failed"
+            },
+            "line": 201,
+            "name": "Valido que muestre mensaje de email incompleto \"Email Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email Incompleto",
+                  "offset": 48
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreMensajeDeEmailIncompleto(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LOGIN"
+          },
+          {
+            "name": "@ESC_014_L"
+          },
+          {
+            "name": "@MEJORAS"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 534000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que la web esta disponible para Login",
+            "match": {
+              "location": "definition.registerDefinition.queLaWebEstaDisponibleLogin()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T17:46:58.207Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2088000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 217,
+        "name": ": [QA][Challenge] C015 - Como Usuario deseo pasar login sin ingresar @ en Email",
+        "description": "",
+        "id": "login-frontend;:-[qa][challenge]-c015---como-usuario-deseo-pasar-login-sin-ingresar-@-en-email;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 312000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 420000000,
+              "status": "passed"
+            },
+            "line": 211,
+            "name": "No Ingreso Arroba en Email \"usuario.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "usuario.com",
+                  "offset": 28
+                }
+              ],
+              "location": "definition.registerDefinition.NoIngresoArrobaEnEmail(java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 289000000,
+              "status": "passed"
+            },
+            "line": 212,
+            "name": "Hago click al boton Login",
+            "match": {
+              "location": "definition.registerDefinition.hagoClickAlBotonLogin()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Email Incompleto]\u003e but was:\u003c[REQUIRED]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat definition.registerDefinition.validoQueMuestreMensajeDeEmailIncompleto(registerDefinition.java:106)\r\n\tat ✽.Valido que muestre mensaje de email incompleto \"Email Incompleto\"(file:///D:/QAChallenge/src/test/resources/features/login.feature:213)\r\n",
+              "duration": 232000000,
+              "status": "failed"
+            },
+            "line": 213,
+            "name": "Valido que muestre mensaje de email incompleto \"Email Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email Incompleto",
+                  "offset": 48
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreMensajeDeEmailIncompleto(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LOGIN"
+          },
+          {
+            "name": "@ESC_015_L"
+          },
+          {
+            "name": "@MEJORAS"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 547000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que la web esta disponible para Login",
+            "match": {
+              "location": "definition.registerDefinition.queLaWebEstaDisponibleLogin()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T17:47:02.092Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1974000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 344,
+        "name": ": [QA][Challenge] C024 - Como Usuario deseo ingresar cero caracteres en Password",
+        "description": "",
+        "id": "login-frontend;:-[qa][challenge]-c024---como-usuario-deseo-ingresar-cero-caracteres-en-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 264000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 435000000,
+              "status": "passed"
+            },
+            "line": 338,
+            "name": "Ingreso cero caracteres en Password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 37
+                }
+              ],
+              "location": "definition.registerDefinition.ingresoCeroCaracteresEnPassword(java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 247000000,
+              "status": "passed"
+            },
+            "line": 339,
+            "name": "Hago click al boton Login",
+            "match": {
+              "location": "definition.registerDefinition.hagoClickAlBotonLogin()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Password Incompleto]\u003e but was:\u003c[REQUIRED]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat definition.registerDefinition.validoQueMuestreMensajeDePassword(registerDefinition.java:296)\r\n\tat ✽.Valido que muestre mensaje de password incompleto \"Password Incompleto\"(file:///D:/QAChallenge/src/test/resources/features/login.feature:340)\r\n",
+              "duration": 257000000,
+              "status": "failed"
+            },
+            "line": 340,
+            "name": "Valido que muestre mensaje de password incompleto \"Password Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password Incompleto",
+                  "offset": 51
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreMensajeDePassword(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LOGIN"
+          },
+          {
+            "name": "@ESC_024_L"
+          },
+          {
+            "name": "@MEJORAS"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 533000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que la web esta disponible para Login",
+            "match": {
+              "location": "definition.registerDefinition.queLaWebEstaDisponibleLogin()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T17:47:05.829Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2052000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 356,
+        "name": ": [QA][Challenge] C025 - Como Usuario deseo ingresar caracteres menores de 6 en Password",
+        "description": "",
+        "id": "login-frontend;:-[qa][challenge]-c025---como-usuario-deseo-ingresar-caracteres-menores-de-6-en-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 295000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 373000000,
+              "status": "passed"
+            },
+            "line": 350,
+            "name": "Ingreso caracteres menores de 6 en Password \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234",
+                  "offset": 45
+                }
+              ],
+              "location": "definition.registerDefinition.ingresoCaracteresMenoresDe6EnPassword(java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 249000000,
+              "status": "passed"
+            },
+            "line": 351,
+            "name": "Hago click al boton Login",
+            "match": {
+              "location": "definition.registerDefinition.hagoClickAlBotonLogin()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Password Incompleto]\u003e but was:\u003c[REQUIRED]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat definition.registerDefinition.validoQueMuestreMensajeDePassword(registerDefinition.java:296)\r\n\tat ✽.Valido que muestre mensaje de password incompleto \"Password Incompleto\"(file:///D:/QAChallenge/src/test/resources/features/login.feature:352)\r\n",
+              "duration": 258000000,
+              "status": "failed"
+            },
+            "line": 352,
+            "name": "Valido que muestre mensaje de password incompleto \"Password Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password Incompleto",
+                  "offset": 51
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreMensajeDePassword(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LOGIN"
+          },
+          {
+            "name": "@ESC_025_L"
+          },
+          {
+            "name": "@MEJORAS"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 532000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que la web esta disponible para Login",
+            "match": {
+              "location": "definition.registerDefinition.queLaWebEstaDisponibleLogin()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T17:47:09.606Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2079000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 357,
+        "name": ": [QA][Challenge] C025 - Como Usuario deseo ingresar caracteres menores de 6 en Password",
+        "description": "",
+        "id": "login-frontend;:-[qa][challenge]-c025---como-usuario-deseo-ingresar-caracteres-menores-de-6-en-password;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 244000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 388000000,
+              "status": "passed"
+            },
+            "line": 350,
+            "name": "Ingreso caracteres menores de 6 en Password \"abcd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abcd",
+                  "offset": 45
+                }
+              ],
+              "location": "definition.registerDefinition.ingresoCaracteresMenoresDe6EnPassword(java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 241000000,
+              "status": "passed"
+            },
+            "line": 351,
+            "name": "Hago click al boton Login",
+            "match": {
+              "location": "definition.registerDefinition.hagoClickAlBotonLogin()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Password Incompleto]\u003e but was:\u003c[REQUIRED]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat definition.registerDefinition.validoQueMuestreMensajeDePassword(registerDefinition.java:296)\r\n\tat ✽.Valido que muestre mensaje de password incompleto \"Password Incompleto\"(file:///D:/QAChallenge/src/test/resources/features/login.feature:352)\r\n",
+              "duration": 217000000,
+              "status": "failed"
+            },
+            "line": 352,
+            "name": "Valido que muestre mensaje de password incompleto \"Password Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password Incompleto",
+                  "offset": 51
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreMensajeDePassword(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LOGIN"
+          },
+          {
+            "name": "@ESC_025_L"
+          },
+          {
+            "name": "@MEJORAS"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 411000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que la web esta disponible para Login",
+            "match": {
+              "location": "definition.registerDefinition.queLaWebEstaDisponibleLogin()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T17:47:13.323Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2061000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 358,
+        "name": ": [QA][Challenge] C025 - Como Usuario deseo ingresar caracteres menores de 6 en Password",
+        "description": "",
+        "id": "login-frontend;:-[qa][challenge]-c025---como-usuario-deseo-ingresar-caracteres-menores-de-6-en-password;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 264000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 454000000,
+              "status": "passed"
+            },
+            "line": 350,
+            "name": "Ingreso caracteres menores de 6 en Password \"12ab\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12ab",
+                  "offset": 45
+                }
+              ],
+              "location": "definition.registerDefinition.ingresoCaracteresMenoresDe6EnPassword(java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 310000000,
+              "status": "passed"
+            },
+            "line": 351,
+            "name": "Hago click al boton Login",
+            "match": {
+              "location": "definition.registerDefinition.hagoClickAlBotonLogin()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Password Incompleto]\u003e but was:\u003c[REQUIRED]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat definition.registerDefinition.validoQueMuestreMensajeDePassword(registerDefinition.java:296)\r\n\tat ✽.Valido que muestre mensaje de password incompleto \"Password Incompleto\"(file:///D:/QAChallenge/src/test/resources/features/login.feature:352)\r\n",
+              "duration": 183000000,
+              "status": "failed"
+            },
+            "line": 352,
+            "name": "Valido que muestre mensaje de password incompleto \"Password Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password Incompleto",
+                  "offset": 51
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreMensajeDePassword(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LOGIN"
+          },
+          {
+            "name": "@ESC_025_L"
+          },
+          {
+            "name": "@MEJORAS"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 679000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que la web esta disponible para Login",
+            "match": {
+              "location": "definition.registerDefinition.queLaWebEstaDisponibleLogin()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T17:47:17.015Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2342000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 359,
+        "name": ": [QA][Challenge] C025 - Como Usuario deseo ingresar caracteres menores de 6 en Password",
+        "description": "",
+        "id": "login-frontend;:-[qa][challenge]-c025---como-usuario-deseo-ingresar-caracteres-menores-de-6-en-password;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 271000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 438000000,
+              "status": "passed"
+            },
+            "line": 350,
+            "name": "Ingreso caracteres menores de 6 en Password \"ab34\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ab34",
+                  "offset": 45
+                }
+              ],
+              "location": "definition.registerDefinition.ingresoCaracteresMenoresDe6EnPassword(java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 296000000,
+              "status": "passed"
+            },
+            "line": 351,
+            "name": "Hago click al boton Login",
+            "match": {
+              "location": "definition.registerDefinition.hagoClickAlBotonLogin()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Password Incompleto]\u003e but was:\u003c[REQUIRED]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat definition.registerDefinition.validoQueMuestreMensajeDePassword(registerDefinition.java:296)\r\n\tat ✽.Valido que muestre mensaje de password incompleto \"Password Incompleto\"(file:///D:/QAChallenge/src/test/resources/features/login.feature:352)\r\n",
+              "duration": 240000000,
+              "status": "failed"
+            },
+            "line": 352,
+            "name": "Valido que muestre mensaje de password incompleto \"Password Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password Incompleto",
+                  "offset": 51
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreMensajeDePassword(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LOGIN"
+          },
+          {
+            "name": "@ESC_025_L"
+          },
+          {
+            "name": "@MEJORAS"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 542000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que la web esta disponible para Login",
+            "match": {
+              "location": "definition.registerDefinition.queLaWebEstaDisponibleLogin()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T17:47:21.293Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1981000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 393,
+        "name": ": [QA][Challenge] C027 - Como Usuario deseo pasar al otro campo sin completar en Password",
+        "description": "",
+        "id": "login-frontend;:-[qa][challenge]-c027---como-usuario-deseo-pasar-al-otro-campo-sin-completar-en-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 300000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 344000000,
+              "status": "passed"
+            },
+            "line": 384,
+            "name": "Ingreso ningun caracter en Password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 37
+                }
+              ],
+              "location": "definition.registerDefinition.ingresoNingunCaracterEnPassword(java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 258000000,
+              "status": "passed"
+            },
+            "line": 385,
+            "name": "Hago click al boton Login",
+            "match": {
+              "location": "definition.registerDefinition.hagoClickAlBotonLogin()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Password Incompleto]\u003e but was:\u003c[REQUIRED]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat definition.registerDefinition.validoQueMuestreElMensajeDePasswordIncompleto(registerDefinition.java:334)\r\n\tat ✽.Valido que muestre el mensaje de password incompleto \"Password Incompleto\"(file:///D:/QAChallenge/src/test/resources/features/login.feature:386)\r\n",
+              "duration": 298000000,
+              "status": "failed"
+            },
+            "line": 386,
+            "name": "Valido que muestre el mensaje de password incompleto \"Password Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password Incompleto",
+                  "offset": 54
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreElMensajeDePasswordIncompleto(java.lang.String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 387,
+            "name": "Ingreso los caracteres menores de 6 en Password \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12345",
+                  "offset": 49
+                }
+              ],
+              "location": "definition.registerDefinition.ingresoLosCaracteresMenoresDe6EnPassword(java.lang.String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 388,
+            "name": "Hago click al boton Login",
+            "match": {
+              "location": "definition.registerDefinition.hagoClickAlBotonLogin()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 389,
+            "name": "Valido que muestre mensaje de password incompleto \"Password Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password Incompleto",
+                  "offset": 51
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreMensajeDePassword(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LOGIN"
+          },
+          {
+            "name": "@ESC_027_L"
+          },
+          {
+            "name": "@MEJORAS"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 658000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que la web esta disponible para Login",
+            "match": {
+              "location": "definition.registerDefinition.queLaWebEstaDisponibleLogin()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T17:47:25.024Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2065000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 423,
+        "name": ": [QA][Challenge] C029 - Como Usuario deseo pasar login sin ingresar ningun caracter en Password",
+        "description": "",
+        "id": "login-frontend;:-[qa][challenge]-c029---como-usuario-deseo-pasar-login-sin-ingresar-ningun-caracter-en-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 692000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 494000000,
+              "status": "passed"
+            },
+            "line": 417,
+            "name": "Ingreso ningun caracter en Password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 37
+                }
+              ],
+              "location": "definition.registerDefinition.ingresoNingunCaracterEnPassword(java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 339000000,
+              "status": "passed"
+            },
+            "line": 418,
+            "name": "Hago click al boton Login",
+            "match": {
+              "location": "definition.registerDefinition.hagoClickAlBotonLogin()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Password Incompleto]\u003e but was:\u003c[REQUIRED]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat definition.registerDefinition.validoQueMuestreMensajeDePassword(registerDefinition.java:296)\r\n\tat ✽.Valido que muestre mensaje de password incompleto \"Password Incompleto\"(file:///D:/QAChallenge/src/test/resources/features/login.feature:419)\r\n",
+              "duration": 236000000,
+              "status": "failed"
+            },
+            "line": 419,
+            "name": "Valido que muestre mensaje de password incompleto \"Password Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password Incompleto",
+                  "offset": 51
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreMensajeDePassword(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LOGIN"
+          },
+          {
+            "name": "@ESC_029_L"
+          },
+          {
+            "name": "@MEJORAS"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 505000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que la web esta disponible para Login",
+            "match": {
+              "location": "definition.registerDefinition.queLaWebEstaDisponibleLogin()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T17:47:29.513Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2036000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 435,
+        "name": ": [QA][Challenge] C030 - Como Usuario deseo ingresar caracteres menores de 6 en Password",
+        "description": "",
+        "id": "login-frontend;:-[qa][challenge]-c030---como-usuario-deseo-ingresar-caracteres-menores-de-6-en-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 263000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 432000000,
+              "status": "passed"
+            },
+            "line": 429,
+            "name": "Ingreso caracteres menores de 6 en Password \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12345",
+                  "offset": 45
+                }
+              ],
+              "location": "definition.registerDefinition.ingresoCaracteresMenoresDe6EnPassword(java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 239000000,
+              "status": "passed"
+            },
+            "line": 430,
+            "name": "Hago click al boton Login",
+            "match": {
+              "location": "definition.registerDefinition.hagoClickAlBotonLogin()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Password Incompleto]\u003e but was:\u003c[REQUIRED]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat definition.registerDefinition.validoQueMuestreMensajeDePassword(registerDefinition.java:296)\r\n\tat ✽.Valido que muestre mensaje de password incompleto \"Password Incompleto\"(file:///D:/QAChallenge/src/test/resources/features/login.feature:431)\r\n",
+              "duration": 240000000,
+              "status": "failed"
+            },
+            "line": 431,
+            "name": "Valido que muestre mensaje de password incompleto \"Password Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password Incompleto",
+                  "offset": 51
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreMensajeDePassword(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LOGIN"
+          },
+          {
+            "name": "@ESC_030_L"
+          },
+          {
+            "name": "@MEJORAS"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 496000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que la web esta disponible para Login",
+            "match": {
+              "location": "definition.registerDefinition.queLaWebEstaDisponibleLogin()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T17:47:33.236Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2148000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 473,
+        "name": ": [QA][Challenge] C032 - Como Usuario deseo ingresar el correo y contraseña para login de manera insatisfactoria",
+        "description": "",
+        "id": "login-frontend;:-[qa][challenge]-c032---como-usuario-deseo-ingresar-el-correo-y-contraseña-para-login-de-manera-insatisfactoria;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 257000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 375000000,
+              "status": "passed"
+            },
+            "line": 466,
+            "name": "Ingreso caracteres incorrectos en Email \"usuario.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "usuario.com",
+                  "offset": 41
+                }
+              ],
+              "location": "definition.registerDefinition.ingresoCaracteresIncorrectosEnEmail(java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 370000000,
+              "status": "passed"
+            },
+            "line": 467,
+            "name": "Ingreso los caracteres incorrectos en Password \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12345",
+                  "offset": 48
+                }
+              ],
+              "location": "definition.registerDefinition.ingresoLosCaracteresIncorrectosEnPassword(java.lang.String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 210000000,
+              "status": "passed"
+            },
+            "line": 468,
+            "name": "Hago click al boton Login",
+            "match": {
+              "location": "definition.registerDefinition.hagoClickAlBotonLogin()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[IN]VALID\u003e but was:\u003c[LOGIN ]VALID\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat definition.registerDefinition.validoQueMuestreMensajeDeLoginInvalido(registerDefinition.java:213)\r\n\tat ✽.Valido que muestre mensaje de login invalido \"INVALID\"(file:///D:/QAChallenge/src/test/resources/features/login.feature:469)\r\n",
+              "duration": 84000000,
+              "status": "failed"
+            },
+            "line": 469,
+            "name": "Valido que muestre mensaje de login invalido \"INVALID\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "INVALID",
+                  "offset": 46
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreMensajeDeLoginInvalido(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LOGIN"
+          },
+          {
+            "name": "@ESC_032_L"
+          },
+          {
+            "name": "@MEJORAS"
+          }
+        ]
+      }
+    ],
+    "name": "LOGIN Frontend",
+    "description": "  Yo como usuario nuevo\n  Quiero loguearme en la web\n  Para crear mi usuario de manera satisfactoria",
+    "id": "login-frontend",
+    "keyword": "Característica",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": [
+      {
+        "name": "@LOGIN",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 5,
+    "elements": [
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 376000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que la web esta disponible para Registro",
+            "match": {
+              "location": "definition.registerDefinition.queLaWebEstaDisponibleRegistro()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T17:47:37.191Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2286000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 131,
+        "name": ": [QA][Challenge] C009 - Como Usuario deseo ingresar cero caracteres en Email",
+        "description": "",
+        "id": "register-frontend;:-[qa][challenge]-c009---como-usuario-deseo-ingresar-cero-caracteres-en-email;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 311000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 330000000,
+              "status": "passed"
+            },
+            "line": 126,
+            "name": "Ingreso cero caracteres en Email \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 34
+                }
+              ],
+              "location": "definition.registerDefinition.ingresoCeroCaracteresEnEmail(java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Email Incompleto]\u003e but was:\u003c[...]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat definition.registerDefinition.validoQueMuestreMensajeDeEmailIncompleto(registerDefinition.java:106)\r\n\tat ✽.Valido que muestre mensaje de email incompleto \"Email Incompleto\"(file:///D:/QAChallenge/src/test/resources/features/register.feature:127)\r\n",
+              "duration": 205000000,
+              "status": "failed"
+            },
+            "line": 127,
+            "name": "Valido que muestre mensaje de email incompleto \"Email Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email Incompleto",
+                  "offset": 48
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreMensajeDeEmailIncompleto(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGISTER"
+          },
+          {
+            "name": "@ESC_009_R"
+          },
+          {
+            "name": "@MEJORAS"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 377000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que la web esta disponible para Registro",
+            "match": {
+              "location": "definition.registerDefinition.queLaWebEstaDisponibleRegistro()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T17:47:40.760Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1994000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 142,
+        "name": ": [QA][Challenge] C010 - Como Usuario deseo ingresar sin caracter @ en Email",
+        "description": "",
+        "id": "register-frontend;:-[qa][challenge]-c010---como-usuario-deseo-ingresar-sin-caracter-@-en-email;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 246000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 382000000,
+              "status": "passed"
+            },
+            "line": 137,
+            "name": "No Ingreso Arroba en Email \"usuario.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "usuario.com",
+                  "offset": 28
+                }
+              ],
+              "location": "definition.registerDefinition.NoIngresoArrobaEnEmail(java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Email Incompleto]\u003e but was:\u003c[...]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat definition.registerDefinition.validoQueMuestreMensajeDeEmailIncompleto(registerDefinition.java:106)\r\n\tat ✽.Valido que muestre mensaje de email incompleto \"Email Incompleto\"(file:///D:/QAChallenge/src/test/resources/features/register.feature:138)\r\n",
+              "duration": 203000000,
+              "status": "failed"
+            },
+            "line": 138,
+            "name": "Valido que muestre mensaje de email incompleto \"Email Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email Incompleto",
+                  "offset": 48
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreMensajeDeEmailIncompleto(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGISTER"
+          },
+          {
+            "name": "@ESC_010_R"
+          },
+          {
+            "name": "@MEJORAS"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 616000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que la web esta disponible para Registro",
+            "match": {
+              "location": "definition.registerDefinition.queLaWebEstaDisponibleRegistro()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T17:47:43.976Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1735000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 143,
+        "name": ": [QA][Challenge] C010 - Como Usuario deseo ingresar sin caracter @ en Email",
+        "description": "",
+        "id": "register-frontend;:-[qa][challenge]-c010---como-usuario-deseo-ingresar-sin-caracter-@-en-email;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 661000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 440000000,
+              "status": "passed"
+            },
+            "line": 137,
+            "name": "No Ingreso Arroba en Email \"usuario\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "usuario",
+                  "offset": 28
+                }
+              ],
+              "location": "definition.registerDefinition.NoIngresoArrobaEnEmail(java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Email Incompleto]\u003e but was:\u003c[...]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat definition.registerDefinition.validoQueMuestreMensajeDeEmailIncompleto(registerDefinition.java:106)\r\n\tat ✽.Valido que muestre mensaje de email incompleto \"Email Incompleto\"(file:///D:/QAChallenge/src/test/resources/features/register.feature:138)\r\n",
+              "duration": 270000000,
+              "status": "failed"
+            },
+            "line": 138,
+            "name": "Valido que muestre mensaje de email incompleto \"Email Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email Incompleto",
+                  "offset": 48
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreMensajeDeEmailIncompleto(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGISTER"
+          },
+          {
+            "name": "@ESC_010_R"
+          },
+          {
+            "name": "@MEJORAS"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 627000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que la web esta disponible para Registro",
+            "match": {
+              "location": "definition.registerDefinition.queLaWebEstaDisponibleRegistro()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T17:47:47.702Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2009000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 144,
+        "name": ": [QA][Challenge] C010 - Como Usuario deseo ingresar sin caracter @ en Email",
+        "description": "",
+        "id": "register-frontend;:-[qa][challenge]-c010---como-usuario-deseo-ingresar-sin-caracter-@-en-email;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 980000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 386000000,
+              "status": "passed"
+            },
+            "line": 137,
+            "name": "No Ingreso Arroba en Email \"usuario1010\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "usuario1010",
+                  "offset": 28
+                }
+              ],
+              "location": "definition.registerDefinition.NoIngresoArrobaEnEmail(java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Email Incompleto]\u003e but was:\u003c[...]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat definition.registerDefinition.validoQueMuestreMensajeDeEmailIncompleto(registerDefinition.java:106)\r\n\tat ✽.Valido que muestre mensaje de email incompleto \"Email Incompleto\"(file:///D:/QAChallenge/src/test/resources/features/register.feature:138)\r\n",
+              "duration": 310000000,
+              "status": "failed"
+            },
+            "line": 138,
+            "name": "Valido que muestre mensaje de email incompleto \"Email Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email Incompleto",
+                  "offset": 48
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreMensajeDeEmailIncompleto(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGISTER"
+          },
+          {
+            "name": "@ESC_010_R"
+          },
+          {
+            "name": "@MEJORAS"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 735000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que la web esta disponible para Registro",
+            "match": {
+              "location": "definition.registerDefinition.queLaWebEstaDisponibleRegistro()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T17:47:52.024Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1642000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 175,
+        "name": ": [QA][Challenge] C012 - Como Usuario deseo pasar al otro campo sin completar en Email",
+        "description": "",
+        "id": "register-frontend;:-[qa][challenge]-c012---como-usuario-deseo-pasar-al-otro-campo-sin-completar-en-email;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 627000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 394000000,
+              "status": "passed"
+            },
+            "line": 168,
+            "name": "Ingreso ningun caracter en Email \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 34
+                }
+              ],
+              "location": "definition.registerDefinition.ingresoNingunCaracterEnEmail(java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Email Incompleto]\u003e but was:\u003c[...]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat definition.registerDefinition.validoQueMuestreElMensajeDeEmailIncompleto(registerDefinition.java:144)\r\n\tat ✽.Valido que muestre el mensaje de email incompleto \"Email Incompleto\"(file:///D:/QAChallenge/src/test/resources/features/register.feature:169)\r\n",
+              "duration": 223000000,
+              "status": "failed"
+            },
+            "line": 169,
+            "name": "Valido que muestre el mensaje de email incompleto \"Email Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email Incompleto",
+                  "offset": 51
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreElMensajeDeEmailIncompleto(java.lang.String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 170,
+            "name": "No Ingreso el Arroba en Email \"usuario.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "usuario.com",
+                  "offset": 31
+                }
+              ],
+              "location": "definition.registerDefinition.NoIngresoElArrobaEnEmail(java.lang.String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 171,
+            "name": "Valido que muestre mensaje de email incompleto \"Email Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email Incompleto",
+                  "offset": 48
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreMensajeDeEmailIncompleto(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGISTER"
+          },
+          {
+            "name": "@ESC_012_R"
+          },
+          {
+            "name": "@MEJORAS"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 583000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que la web esta disponible para Registro",
+            "match": {
+              "location": "definition.registerDefinition.queLaWebEstaDisponibleRegistro()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T17:47:55.652Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1903000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 205,
+        "name": ": [QA][Challenge] C014 - Como Usuario deseo pasar registrar sin ingresar ningun caracter en Email",
+        "description": "",
+        "id": "register-frontend;:-[qa][challenge]-c014---como-usuario-deseo-pasar-registrar-sin-ingresar-ningun-caracter-en-email;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 266000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 485000000,
+              "status": "passed"
+            },
+            "line": 199,
+            "name": "Ingreso ningun caracter en Email \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 34
+                }
+              ],
+              "location": "definition.registerDefinition.ingresoNingunCaracterEnEmail(java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 252000000,
+              "status": "passed"
+            },
+            "line": 200,
+            "name": "Hago click al boton Register",
+            "match": {
+              "location": "definition.registerDefinition.hagoClickAlBotonRegister()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Email Incompleto]\u003e but was:\u003c[REQUIRED]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat definition.registerDefinition.validoQueMuestreMensajeDeEmailIncompleto(registerDefinition.java:106)\r\n\tat ✽.Valido que muestre mensaje de email incompleto \"Email Incompleto\"(file:///D:/QAChallenge/src/test/resources/features/register.feature:201)\r\n",
+              "duration": 229000000,
+              "status": "failed"
+            },
+            "line": 201,
+            "name": "Valido que muestre mensaje de email incompleto \"Email Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email Incompleto",
+                  "offset": 48
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreMensajeDeEmailIncompleto(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGISTER"
+          },
+          {
+            "name": "@ESC_014_R"
+          },
+          {
+            "name": "@MEJORAS"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 446000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que la web esta disponible para Registro",
+            "match": {
+              "location": "definition.registerDefinition.queLaWebEstaDisponibleRegistro()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T17:47:59.375Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2187000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 217,
+        "name": ": [QA][Challenge] C015 - Como Usuario deseo pasar registrar sin ingresar @ en Email",
+        "description": "",
+        "id": "register-frontend;:-[qa][challenge]-c015---como-usuario-deseo-pasar-registrar-sin-ingresar-@-en-email;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 284000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 549000000,
+              "status": "passed"
+            },
+            "line": 211,
+            "name": "No Ingreso Arroba en Email \"usuario.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "usuario.com",
+                  "offset": 28
+                }
+              ],
+              "location": "definition.registerDefinition.NoIngresoArrobaEnEmail(java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 338000000,
+              "status": "passed"
+            },
+            "line": 212,
+            "name": "Hago click al boton Register",
+            "match": {
+              "location": "definition.registerDefinition.hagoClickAlBotonRegister()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Email Incompleto]\u003e but was:\u003c[REQUIRED]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat definition.registerDefinition.validoQueMuestreMensajeDeEmailIncompleto(registerDefinition.java:106)\r\n\tat ✽.Valido que muestre mensaje de email incompleto \"Email Incompleto\"(file:///D:/QAChallenge/src/test/resources/features/register.feature:213)\r\n",
+              "duration": 250000000,
+              "status": "failed"
+            },
+            "line": 213,
+            "name": "Valido que muestre mensaje de email incompleto \"Email Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email Incompleto",
+                  "offset": 48
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreMensajeDeEmailIncompleto(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGISTER"
+          },
+          {
+            "name": "@ESC_015_R"
+          },
+          {
+            "name": "@MEJORAS"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 626000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que la web esta disponible para Registro",
+            "match": {
+              "location": "definition.registerDefinition.queLaWebEstaDisponibleRegistro()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T17:48:03.435Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2153000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 344,
+        "name": ": [QA][Challenge] C024 - Como Usuario deseo ingresar cero caracteres en Password",
+        "description": "",
+        "id": "register-frontend;:-[qa][challenge]-c024---como-usuario-deseo-ingresar-cero-caracteres-en-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 282000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 354000000,
+              "status": "passed"
+            },
+            "line": 338,
+            "name": "Ingreso cero caracteres en Password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 37
+                }
+              ],
+              "location": "definition.registerDefinition.ingresoCeroCaracteresEnPassword(java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 303000000,
+              "status": "passed"
+            },
+            "line": 339,
+            "name": "Hago click al boton Register",
+            "match": {
+              "location": "definition.registerDefinition.hagoClickAlBotonRegister()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Password Incompleto]\u003e but was:\u003c[REQUIRED]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat definition.registerDefinition.validoQueMuestreMensajeDePassword(registerDefinition.java:296)\r\n\tat ✽.Valido que muestre mensaje de password incompleto \"Password Incompleto\"(file:///D:/QAChallenge/src/test/resources/features/register.feature:340)\r\n",
+              "duration": 208000000,
+              "status": "failed"
+            },
+            "line": 340,
+            "name": "Valido que muestre mensaje de password incompleto \"Password Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password Incompleto",
+                  "offset": 51
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreMensajeDePassword(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGISTER"
+          },
+          {
+            "name": "@ESC_024_R"
+          },
+          {
+            "name": "@MEJORAS"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 425000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que la web esta disponible para Registro",
+            "match": {
+              "location": "definition.registerDefinition.queLaWebEstaDisponibleRegistro()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T17:48:07.365Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2313000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 356,
+        "name": ": [QA][Challenge] C025 - Como Usuario deseo ingresar caracteres menores de 6 en Password",
+        "description": "",
+        "id": "register-frontend;:-[qa][challenge]-c025---como-usuario-deseo-ingresar-caracteres-menores-de-6-en-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 271000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 398000000,
+              "status": "passed"
+            },
+            "line": 350,
+            "name": "Ingreso caracteres menores de 6 en Password \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234",
+                  "offset": 45
+                }
+              ],
+              "location": "definition.registerDefinition.ingresoCaracteresMenoresDe6EnPassword(java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 242000000,
+              "status": "passed"
+            },
+            "line": 351,
+            "name": "Hago click al boton Register",
+            "match": {
+              "location": "definition.registerDefinition.hagoClickAlBotonRegister()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Password Incompleto]\u003e but was:\u003c[REQUIRED]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat definition.registerDefinition.validoQueMuestreMensajeDePassword(registerDefinition.java:296)\r\n\tat ✽.Valido que muestre mensaje de password incompleto \"Password Incompleto\"(file:///D:/QAChallenge/src/test/resources/features/register.feature:352)\r\n",
+              "duration": 255000000,
+              "status": "failed"
+            },
+            "line": 352,
+            "name": "Valido que muestre mensaje de password incompleto \"Password Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password Incompleto",
+                  "offset": 51
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreMensajeDePassword(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGISTER"
+          },
+          {
+            "name": "@ESC_025_R"
+          },
+          {
+            "name": "@MEJORAS"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 461000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que la web esta disponible para Registro",
+            "match": {
+              "location": "definition.registerDefinition.queLaWebEstaDisponibleRegistro()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T17:48:11.276Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2473000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 357,
+        "name": ": [QA][Challenge] C025 - Como Usuario deseo ingresar caracteres menores de 6 en Password",
+        "description": "",
+        "id": "register-frontend;:-[qa][challenge]-c025---como-usuario-deseo-ingresar-caracteres-menores-de-6-en-password;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 349000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 390000000,
+              "status": "passed"
+            },
+            "line": 350,
+            "name": "Ingreso caracteres menores de 6 en Password \"abcd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abcd",
+                  "offset": 45
+                }
+              ],
+              "location": "definition.registerDefinition.ingresoCaracteresMenoresDe6EnPassword(java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 303000000,
+              "status": "passed"
+            },
+            "line": 351,
+            "name": "Hago click al boton Register",
+            "match": {
+              "location": "definition.registerDefinition.hagoClickAlBotonRegister()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Password Incompleto]\u003e but was:\u003c[REQUIRED]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat definition.registerDefinition.validoQueMuestreMensajeDePassword(registerDefinition.java:296)\r\n\tat ✽.Valido que muestre mensaje de password incompleto \"Password Incompleto\"(file:///D:/QAChallenge/src/test/resources/features/register.feature:352)\r\n",
+              "duration": 198000000,
+              "status": "failed"
+            },
+            "line": 352,
+            "name": "Valido que muestre mensaje de password incompleto \"Password Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password Incompleto",
+                  "offset": 51
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreMensajeDePassword(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGISTER"
+          },
+          {
+            "name": "@ESC_025_R"
+          },
+          {
+            "name": "@MEJORAS"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 485000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que la web esta disponible para Registro",
+            "match": {
+              "location": "definition.registerDefinition.queLaWebEstaDisponibleRegistro()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T17:48:15.456Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2559000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 358,
+        "name": ": [QA][Challenge] C025 - Como Usuario deseo ingresar caracteres menores de 6 en Password",
+        "description": "",
+        "id": "register-frontend;:-[qa][challenge]-c025---como-usuario-deseo-ingresar-caracteres-menores-de-6-en-password;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 976000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 592000000,
+              "status": "passed"
+            },
+            "line": 350,
+            "name": "Ingreso caracteres menores de 6 en Password \"12ab\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12ab",
+                  "offset": 45
+                }
+              ],
+              "location": "definition.registerDefinition.ingresoCaracteresMenoresDe6EnPassword(java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 265000000,
+              "status": "passed"
+            },
+            "line": 351,
+            "name": "Hago click al boton Register",
+            "match": {
+              "location": "definition.registerDefinition.hagoClickAlBotonRegister()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Password Incompleto]\u003e but was:\u003c[REQUIRED]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat definition.registerDefinition.validoQueMuestreMensajeDePassword(registerDefinition.java:296)\r\n\tat ✽.Valido que muestre mensaje de password incompleto \"Password Incompleto\"(file:///D:/QAChallenge/src/test/resources/features/register.feature:352)\r\n",
+              "duration": 215000000,
+              "status": "failed"
+            },
+            "line": 352,
+            "name": "Valido que muestre mensaje de password incompleto \"Password Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password Incompleto",
+                  "offset": 51
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreMensajeDePassword(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGISTER"
+          },
+          {
+            "name": "@ESC_025_R"
+          },
+          {
+            "name": "@MEJORAS"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 468000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que la web esta disponible para Registro",
+            "match": {
+              "location": "definition.registerDefinition.queLaWebEstaDisponibleRegistro()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T17:48:20.555Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1908000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 359,
+        "name": ": [QA][Challenge] C025 - Como Usuario deseo ingresar caracteres menores de 6 en Password",
+        "description": "",
+        "id": "register-frontend;:-[qa][challenge]-c025---como-usuario-deseo-ingresar-caracteres-menores-de-6-en-password;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 284000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 549000000,
+              "status": "passed"
+            },
+            "line": 350,
+            "name": "Ingreso caracteres menores de 6 en Password \"ab34\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ab34",
+                  "offset": 45
+                }
+              ],
+              "location": "definition.registerDefinition.ingresoCaracteresMenoresDe6EnPassword(java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 270000000,
+              "status": "passed"
+            },
+            "line": 351,
+            "name": "Hago click al boton Register",
+            "match": {
+              "location": "definition.registerDefinition.hagoClickAlBotonRegister()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Password Incompleto]\u003e but was:\u003c[REQUIRED]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat definition.registerDefinition.validoQueMuestreMensajeDePassword(registerDefinition.java:296)\r\n\tat ✽.Valido que muestre mensaje de password incompleto \"Password Incompleto\"(file:///D:/QAChallenge/src/test/resources/features/register.feature:352)\r\n",
+              "duration": 223000000,
+              "status": "failed"
+            },
+            "line": 352,
+            "name": "Valido que muestre mensaje de password incompleto \"Password Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password Incompleto",
+                  "offset": 51
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreMensajeDePassword(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGISTER"
+          },
+          {
+            "name": "@ESC_025_R"
+          },
+          {
+            "name": "@MEJORAS"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 525000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que la web esta disponible para Registro",
+            "match": {
+              "location": "definition.registerDefinition.queLaWebEstaDisponibleRegistro()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T17:48:24.261Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2399000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 393,
+        "name": ": [QA][Challenge] C027 - Como Usuario deseo pasar al otro campo sin completar en Password",
+        "description": "",
+        "id": "register-frontend;:-[qa][challenge]-c027---como-usuario-deseo-pasar-al-otro-campo-sin-completar-en-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 272000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 541000000,
+              "status": "passed"
+            },
+            "line": 384,
+            "name": "Ingreso ningun caracter en Password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 37
+                }
+              ],
+              "location": "definition.registerDefinition.ingresoNingunCaracterEnPassword(java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 272000000,
+              "status": "passed"
+            },
+            "line": 385,
+            "name": "Hago click al boton Register",
+            "match": {
+              "location": "definition.registerDefinition.hagoClickAlBotonRegister()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Password Incompleto]\u003e but was:\u003c[REQUIRED]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat definition.registerDefinition.validoQueMuestreElMensajeDePasswordIncompleto(registerDefinition.java:334)\r\n\tat ✽.Valido que muestre el mensaje de password incompleto \"Password Incompleto\"(file:///D:/QAChallenge/src/test/resources/features/register.feature:386)\r\n",
+              "duration": 183000000,
+              "status": "failed"
+            },
+            "line": 386,
+            "name": "Valido que muestre el mensaje de password incompleto \"Password Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password Incompleto",
+                  "offset": 54
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreElMensajeDePasswordIncompleto(java.lang.String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 387,
+            "name": "Ingreso los caracteres menores de 6 en Password \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12345",
+                  "offset": 49
+                }
+              ],
+              "location": "definition.registerDefinition.ingresoLosCaracteresMenoresDe6EnPassword(java.lang.String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 388,
+            "name": "Hago click al boton Register",
+            "match": {
+              "location": "definition.registerDefinition.hagoClickAlBotonRegister()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 389,
+            "name": "Valido que muestre mensaje de password incompleto \"Password Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password Incompleto",
+                  "offset": 51
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreMensajeDePassword(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGISTER"
+          },
+          {
+            "name": "@ESC_027_R"
+          },
+          {
+            "name": "@MEJORAS"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 472000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que la web esta disponible para Registro",
+            "match": {
+              "location": "definition.registerDefinition.queLaWebEstaDisponibleRegistro()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T17:48:28.457Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2034000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 423,
+        "name": ": [QA][Challenge] C029 - Como Usuario deseo pasar registrar sin ingresar ningun caracter en Password",
+        "description": "",
+        "id": "register-frontend;:-[qa][challenge]-c029---como-usuario-deseo-pasar-registrar-sin-ingresar-ningun-caracter-en-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 282000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 510000000,
+              "status": "passed"
+            },
+            "line": 417,
+            "name": "Ingreso ningun caracter en Password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 37
+                }
+              ],
+              "location": "definition.registerDefinition.ingresoNingunCaracterEnPassword(java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 311000000,
+              "status": "passed"
+            },
+            "line": 418,
+            "name": "Hago click al boton Register",
+            "match": {
+              "location": "definition.registerDefinition.hagoClickAlBotonRegister()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Password Incompleto]\u003e but was:\u003c[REQUIRED]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat definition.registerDefinition.validoQueMuestreMensajeDePassword(registerDefinition.java:296)\r\n\tat ✽.Valido que muestre mensaje de password incompleto \"Password Incompleto\"(file:///D:/QAChallenge/src/test/resources/features/register.feature:419)\r\n",
+              "duration": 252000000,
+              "status": "failed"
+            },
+            "line": 419,
+            "name": "Valido que muestre mensaje de password incompleto \"Password Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password Incompleto",
+                  "offset": 51
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreMensajeDePassword(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGISTER"
+          },
+          {
+            "name": "@ESC_029_R"
+          },
+          {
+            "name": "@MEJORAS"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": [
+          {
+            "result": {
+              "duration": 678000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que la web esta disponible para Registro",
+            "match": {
+              "location": "definition.registerDefinition.queLaWebEstaDisponibleRegistro()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T17:48:32.324Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2867000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 435,
+        "name": ": [QA][Challenge] C030 - Como Usuario deseo ingresar caracteres menores de 6 en Password",
+        "description": "",
+        "id": "register-frontend;:-[qa][challenge]-c030---como-usuario-deseo-ingresar-caracteres-menores-de-6-en-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 917000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definition.hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 741000000,
+              "status": "passed"
+            },
+            "line": 429,
+            "name": "Ingreso caracteres menores de 6 en Password \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12345",
+                  "offset": 45
+                }
+              ],
+              "location": "definition.registerDefinition.ingresoCaracteresMenoresDe6EnPassword(java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 311000000,
+              "status": "passed"
+            },
+            "line": 430,
+            "name": "Hago click al boton Register",
+            "match": {
+              "location": "definition.registerDefinition.hagoClickAlBotonRegister()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Password Incompleto]\u003e but was:\u003c[REQUIRED]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat definition.registerDefinition.validoQueMuestreMensajeDePassword(registerDefinition.java:296)\r\n\tat ✽.Valido que muestre mensaje de password incompleto \"Password Incompleto\"(file:///D:/QAChallenge/src/test/resources/features/register.feature:431)\r\n",
+              "duration": 227000000,
+              "status": "failed"
+            },
+            "line": 431,
+            "name": "Valido que muestre mensaje de password incompleto \"Password Incompleto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password Incompleto",
+                  "offset": 51
+                }
+              ],
+              "location": "definition.registerDefinition.validoQueMuestreMensajeDePassword(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REGISTER"
+          },
+          {
+            "name": "@ESC_030_R"
+          },
+          {
+            "name": "@MEJORAS"
+          }
+        ]
+      }
+    ],
+    "name": "REGISTER Frontend",
+    "description": "  Yo como usuario nuevo\n  Quiero registrarme en la web\n  Para crear mi usuario de manera satisfactoria",
+    "id": "register-frontend",
+    "keyword": "Característica",
+    "uri": "file:src/test/resources/features/register.feature",
+    "tags": [
+      {
+        "name": "@REGISTER",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
